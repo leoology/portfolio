@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 .navbar{
-    background: black;
+    background: rgb(125, 132, 142);
     position: fixed;
     width: 100%;
     padding: 15px 0 ;
@@ -55,7 +55,7 @@
 }
 .home .home-content a{
     display: inline-block;
-    background: black;
+    background: rgb(125, 132, 142);
     color: white;
     font-size: 25px;
     padding: 12px 36px;
