@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+.navbar{
+    background: cornflowerblue;
+    position: fixed;
+    width: 100%;
+    padding: 15px 0 ;
+    font-family: 'Courier New', Courier, monospace;
+    border: white;
+    border-style: solid;
+    border-width: thick;
+    
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color:white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+.home{
+    display: flex;
+    background-color: rgb(254, 141, 159);
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin: 0px 5px 0px;
+    /* background: url(https://www.rvinyl.com/Shared/Images/Product/Avery-Dennison-HP750-High-Performance-Cut-Vinyl-Film-Series/Avery-Dennison-HP750-High-Performance-Cut-Vinyl-Film-Series-Soft-Pink.jpg); */
+}
+.home .max-width{
+    margin: auto;
+    font-size: 50px;
+}
+.intro{
+    bottom: 100%;
+    margin-bottom: 70%;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+
+}
+.home .home-content .text-2{
+    font-size: 18px;
+    margin-right: 450px;
+}
+.home .home-content a{
+    display: inline-block;
+    background: black;
+    color: white;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid white;
+}
+.home .home-content a:hover{
+    color:white;
+    background: none;
+}
+@media (max-width: 947 px){
+    .max-width{
+        max-width: 1300px;
+        padding: 0 50px;
+        margin: auto;
+    }
+    .navbar .menu{
+        position: fixed;
+        background: black;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: -100%;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu.active{
+        left: 0;
+    }
+     .navbar .menu li{
+        display: block;
+     }
+     .navbar .menu li a{
+         display: inline-block;
+         margin: 20px 0;
+         font-size: 25px;
+     }
+
+    }
+    .about{
+        background-color: rgb(255, 227, 142);
+        margin: 0px 5px 0px;
+    }
+    /* p{
+    margin-right: 450px;
+} */
