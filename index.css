@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
 .navbar{
     background: rgb(125, 132, 142);
     position: fixed;
@@ -28,6 +33,8 @@
 .home{
     display: flex;
     background-color: rgb(254, 141, 159);
+    max-width: 100%;
+    overflow-x: hidden;
     height: 100vh;
     font-family: 'Courier New', Courier, monospace;
     color: white;
@@ -44,14 +51,19 @@
 }
 
 .max-width{
-    max-width: 1300px;
+    max-width: 850px;
     padding: 0 80px;
     margin: auto;
 
 }
+.home .home-content{
+    position: relative;
+    left: -15%;
+}
+
 .home .home-content .text-2{
     font-size: 18px;
-    margin-right: 450px;
+    margin-right: 250px;
 }
 .home .home-content a{
     display: inline-block;
@@ -67,7 +79,7 @@
     color:white;
     background: none;
 }
-@media (max-width: 947 px){
+@media (max-width: 100 px){
     .max-width{
         max-width: 1300px;
         padding: 0 50px;
@@ -116,7 +128,22 @@
         background-color:cornflowerblue;
         margin: 10px 5px 0px;
         height: 100vh;
-
+    }
+    .about-title{
+        font-size: 30px;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        left: 50%;
+        bottom: 10%;
+    }
+    .works-title{
+        font-size: 30px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        left: 50%;
+        bottom: 10%;
     }
     /* p{
     margin-right: 450px;
