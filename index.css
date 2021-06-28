@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 .navbar{
-    background: cornflowerblue;
+    background: black;
     position: fixed;
     width: 100%;
     padding: 15px 0 ;
@@ -111,6 +111,12 @@
         color:black;
         /* background-color: black; */
         margin: -150px 70px 100px 500px;
+    }
+    .works{
+        background-color:cornflowerblue;
+        margin: 10px 5px 0px;
+        height: 100vh;
+
     }
     /* p{
     margin-right: 450px;
