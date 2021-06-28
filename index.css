@@ -98,12 +98,19 @@
     }
     .about{
         background-color: rgb(255, 227, 142);
-        margin: 0px 5px 0px;
+        margin: 10px 5px 0px;
         height: 100vh;
 
     }
     .img{
         margin-top: 25%;
+    }
+    .about p{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 18px;
+        color:black;
+        /* background-color: black; */
+        margin: -150px 70px 100px 500px;
     }
     /* p{
     margin-right: 450px;
