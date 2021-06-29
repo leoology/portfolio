@@ -7,7 +7,9 @@ body{
 .navbar{
     background: rgb(125, 132, 142);
     position: fixed;
-    width: 100%;
+    z-index: 1000;
+    /* top: -50px; */
+    width:100%;
     padding: 15px 0 ;
     font-family: 'Courier New', Courier, monospace;
     border: white;
@@ -117,6 +119,7 @@ body{
         max-width: 100%;
         padding-top: 5%;
         padding-right: 37%;
+        padding-left: 5%;
 
     }
     .img{
