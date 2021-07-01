@@ -135,11 +135,14 @@ body{
     .about p{
         font-family: 'Courier New', Courier, monospace;
         font-size: 18px;
+        position: relative;
+        left: 20%;
+        top: -400%;
         color:white;
         border: 5px solid white;
         border-radius: 10px;
         background-color:  rgb(125, 132, 142);
-        margin: -150px 20px 100px 300px;
+        margin: -290px 20px 100px 300px;
     }
     .works{
         max-width: 100%;
@@ -178,6 +181,62 @@ body{
         left: 80%;
         bottom: -40%;
     }
+
+    .jokebook{
+        width:20%;
+        border: solid white;
+        border-radius: 10px;
+        position: absolute;
+        margin-top: 15.5%;
+    }
+
+    .jokebook:hover{
+        color: white; 
+        opacity: .5;
+        border: solid rgb(125, 132, 142); 
+    }  
+    .jokebook:hover .j-description{
+        visibility: visible;
+    } 
+    .img-1{
+        position: relative;
+        /* width:400px; */
+    }
+
+    .img-des{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .music{
+        width: 12%;
+        border: solid white;
+        border-radius: 10px; 
+        position: absolute;
+        left: 40%;
+        bottom: -70%;
+    }
+    .music:hover{
+        color: white; 
+        opacity: .5;
+        border: solid rgb(125, 132, 142); 
+    } 
+
+    .second{
+        width:12%;
+        border: solid white;
+        border-radius: 10px; 
+        position: absolute;
+        left: 60%;
+        bottom: -70%;
+    }
+    .second:hover{
+        color: white; 
+        opacity: .5;
+        border: solid rgb(125, 132, 142); 
+    } 
+
+
     /* p{
     margin-right: 450px;
 } */
