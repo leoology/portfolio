@@ -33,7 +33,7 @@ body{
 }
 .navbar .menu li a{
     color:white;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 500;
     margin-left: 25px;
 }
@@ -136,13 +136,14 @@ body{
         font-family: 'Courier New', Courier, monospace;
         font-size: 18px;
         position: relative;
-        left: 20%;
+        left: 40%;
         top: -400%;
         color:white;
         border: 5px solid white;
         border-radius: 10px;
+        padding: 3%;
         background-color:  rgb(125, 132, 142);
-        margin: -290px 20px 100px 300px;
+        margin: -290px 20px 100px 200px;
     }
     .works{
         max-width: 100%;
@@ -235,7 +236,7 @@ body{
         opacity: .5;
         border: solid rgb(125, 132, 142); 
     } 
-
+  
 
     /* p{
     margin-right: 450px;
