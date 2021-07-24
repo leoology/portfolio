@@ -72,7 +72,7 @@ body{
     font-size: 18px;
     margin-right: 250px;
 }
-.home .home-content a{
+.home .home-content .github{
     display: inline-block;
     background: rgb(125, 132, 142);
     color: white;
