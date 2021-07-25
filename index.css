@@ -242,14 +242,14 @@ body{
         border-radius: 10px; 
         position: absolute;
         /* float: left; */
-        width:  250px;
-        height: 250px;
+        width:  150px;
+        height: 150px;
         object-fit: cover;
     }
  
     .links{
-        padding-top: 2%;
-        right: 32%;
+        padding-top: 10%;
+        right: 25%;
         position: absolute;
         display: flex;
         list-style-type: none;
