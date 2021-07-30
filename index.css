@@ -171,8 +171,14 @@ body{
         text-align: center;
     }
     .works-title{
+        /* margin: -10px 150px 0px 300px; */
+        width: 300px;
+        height: 40px;
+        border: 5px solid white;
+        border-radius: 10px;
+        background-color:  rgb(125, 132, 142);
         font-size: 30px;
-        padding-top: 10%;
+        /* padding-top: 10%; */
         color: white;
         font-family: 'Courier New', Courier, monospace;
         position: relative;
