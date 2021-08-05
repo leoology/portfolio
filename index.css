@@ -176,12 +176,18 @@ body{
         height: 40px;
         border: 5px solid white;
         border-radius: 10px;
-        background-color:  rgb(125, 132, 142);
+        background-color:  rgb(125, 132, 142); 
         font-size: 30px;
         /* padding-top: 10%; */
         color: white;
         font-family: 'Courier New', Courier, monospace;
-        position: relative;
+        position:relative;
+        right: -40%;
+        top: 100px;
+        text-align: center;
+
+
+        /* margin-top: 10%; */
     
     }
     .logo{
